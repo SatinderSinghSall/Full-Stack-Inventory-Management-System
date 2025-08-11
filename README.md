@@ -14,6 +14,100 @@ I’m thrilled to introduce **Inventory MS**, a robust, full-stack inventory man
 
 ---
 
+# File Tree: InventoryMS
+
+Generated on: 8/11/2025, 9:10:47 AM
+Root path: `e:\My Projects\Full-Stack Inventory Management System\Inventory MS`
+
+```
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 backend/
+│   ├── 📁 .git/ 🚫 (auto-hidden)
+│   ├── 📁 controllers/
+│   │   ├── 📄 CategoriesControllers.js
+│   │   ├── 📄 OrderController.js
+│   │   ├── 📄 ProductController.js
+│   │   ├── 📄 SuppliersController.js
+│   │   ├── 📄 UserControllers.js
+│   │   ├── 📄 dashboardController.js
+│   │   └── 📄 userController.js
+│   ├── 📁 db/
+│   │   └── 📄 connection.js
+│   ├── 📁 middleware/
+│   │   └── 📄 authMiddleware.js
+│   ├── 📁 models/
+│   │   ├── 📄 Category.js
+│   │   ├── 📄 Order.js
+│   │   ├── 📄 Product.js
+│   │   ├── 📄 Supplier.js
+│   │   └── 📄 User.js
+│   ├── 📁 node_modules/ 🚫 (auto-hidden)
+│   ├── 📁 routes/
+│   │   ├── 📄 authRoutes.js
+│   │   ├── 📄 categoryRoutes.js
+│   │   ├── 📄 dashboardRoutes.js
+│   │   ├── 📄 orderRoutes.js
+│   │   ├── 📄 productRoutes.js
+│   │   ├── 📄 suppliersRoutes.js
+│   │   └── 📄 userRoutes.js
+│   ├── 🔒 .env 🚫 (auto-hidden)
+│   ├── 🚫 .gitignore 🚫 (auto-hidden)
+│   ├── 📄 index.js
+│   ├── 📄 package-lock.json 🚫 (auto-hidden)
+│   ├── 📄 package.json
+│   └── 📄 seed.js
+├── 📁 frontend/
+│   ├── 📁 .git/ 🚫 (auto-hidden)
+│   ├── 📁 dist/ 🚫 (auto-hidden)
+│   ├── 📁 node_modules/ 🚫 (auto-hidden)
+│   ├── 📁 public/
+│   │   └── 🖼️ vite.svg
+│   ├── 📁 src/
+│   │   ├── 📁 assets/
+│   │   │   └── 🖼️ react.svg
+│   │   ├── 📁 components/
+│   │   │   ├── 📄 Categories.jsx
+│   │   │   ├── 📄 EmployeeProducts.jsx
+│   │   │   ├── 📄 Logout.jsx
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   ├── 📄 NotFound.jsx
+│   │   │   ├── 📄 Orders.jsx
+│   │   │   ├── 📄 Products.jsx
+│   │   │   ├── 📄 Profile.jsx
+│   │   │   ├── 📄 Sidebar.jsx
+│   │   │   ├── 📄 Summary.jsx
+│   │   │   ├── 📄 Suppliers.jsx
+│   │   │   ├── 📄 Unauthorized.jsx
+│   │   │   └── 📄 Users.jsx
+│   │   ├── 📁 context/
+│   │   │   └── 📄 AuthContext.jsx
+│   │   ├── 📁 pages/
+│   │   │   ├── 📄 Dashboard.jsx
+│   │   │   └── 📄 Login.jsx
+│   │   ├── 📁 utils/
+│   │   │   ├── 📄 ProtectedRoute.jsx
+│   │   │   ├── 📄 Root.jsx
+│   │   │   └── 📄 api.jsx
+│   │   ├── 🎨 App.css
+│   │   ├── 📄 App.jsx
+│   │   ├── 🎨 index.css
+│   │   └── 📄 main.jsx
+│   ├── 📄 .env.development 🚫 (auto-hidden)
+│   ├── 📄 .env.production 🚫 (auto-hidden)
+│   ├── 🚫 .gitignore 🚫 (auto-hidden)
+│   ├── 📖 README.md
+│   ├── 📄 eslint.config.js
+│   ├── 🌐 index.html
+│   ├── 📄 package-lock.json 🚫 (auto-hidden)
+│   ├── 📄 package.json
+│   ├── 📄 vercel.json
+│   └── 📄 vite.config.js
+├── 🚫 .gitignore 🚫 (auto-hidden)
+└── 📖 README.md
+```
+
+---
+
 ## 💻 Technology Stack
 
 - **Frontend:** React.js + Tailwind CSS for a responsive, modern UI
